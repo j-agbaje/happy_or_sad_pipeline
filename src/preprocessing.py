@@ -128,7 +128,7 @@ def preprocess_single_image(image_path, img_size=(256,256), interpolation=cv2.IN
         raise FileNotFoundError('Could not read image path')
     img = cv2.resize (img, img_size, interpolation=interpolation)
     img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
-    IMG = IMG.astype('float32')/255.0
+    img = img.astype('float32')/255.0
     return np.expand_dims(img, axis=0)
 
 def create_data_pipeline():
