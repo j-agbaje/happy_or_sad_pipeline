@@ -1,14 +1,12 @@
 # Emotion Detection ML Pipeline
 
 ## Video Demo
-[YouTube Demo Link](https://youtube.com/your-demo-link)
+[YouTube Demo Link](https://youtu.be/RfDLKSG7FnM)
 
-## Live Application
-[Deployed Application URL](https://your-app-url.com)
 
 ## Project Description
 
-An end-to-end machine learning pipeline for emotion detection from facial images. The system classifies images as "happy" or "sad" using a Convolutional Neural Network (CNN) with capabilities for real-time prediction, bulk data upload, and model retraining.
+A machine learning pipeline for emotion detection from facial images. The system classifies images as "happy" or "sad" using a Convolutional Neural Network (CNN) with capabilities for real-time prediction, bulk data upload, and model retraining.
 
 ### Key Features
 - **Image Classification**: Binary emotion detection (happy/sad)
@@ -16,14 +14,14 @@ An end-to-end machine learning pipeline for emotion detection from facial images
 - **Bulk Data Upload**: Upload multiple images with class labels for retraining
 - **Model Retraining**: Retrain the model with new data using existing model as base
 - **RESTful API**: FastAPI backend with automatic documentation
-- **Cloud Deployment**: Scalable deployment with MongoDB for data storage
+- **Database Storage**: MongoDB for data storage
 
 ### Technology Stack
 - **Backend**: FastAPI, TensorFlow/Keras
 - **Database**: MongoDB with GridFS for image storage
 - **ML Framework**: TensorFlow 2.x, Keras Tuner
-- **Image Processing**: PIL, OpenCV
-- **Deployment**: Docker, Cloud Platform
+- **Image Processing**: PIL, OpenCV, Tensorflow
+
 
 ## Setup Instructions
 
