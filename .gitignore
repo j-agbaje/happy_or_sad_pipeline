@@ -1,0 +1,10 @@
+.vscode/
+**/__pycache__/
+*.pyc
+*.pyo
+
+notebook/keras_tuner_results/
+
+
+
+.DS_Store
